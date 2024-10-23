@@ -1,0 +1,9 @@
+body {
+	padding: 15px 10%;
+}
+
+.sectionBox {
+	padding: 10px;
+	border: 2px solid grey;
+	margin: 7px 0;
+}
