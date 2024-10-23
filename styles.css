@@ -1,9 +1,80 @@
 body {
 	padding: 15px 10%;
+	font-family: Roboto;
+}
+
+h1 {
+	font-family: 'Arsenal SC';
+	font-size: 40px;
+}
+
+h2 {
+	font-family: 'Afacad Flux';
+	font-size: 28px;
+}
+
+p {
+	font-family: 'Roboto';
+	font-size: 16px;
+}
+
+ul {
+	font-family: 'Roboto';
+	font-size: 16px;
 }
 
 .sectionBox {
 	padding: 10px;
 	border: 2px solid grey;
 	margin: 7px 0;
+}
+
+.fontDisplay {
+	display: inline-block;
+	margin-right: 20px;
+	width: 45%;
+}
+
+.colorBox {
+	display: inline-block;
+	margin-right: 3px;
+	margin-bottom: 40px;
+	width: 32%; 
+	/* I originally had a set width in px - corrected it based on the site example (learning - yay) */
+	height: 100px;
+	text-align: center;
+}
+
+.brown {
+	background-color: #4D4432;
+	color: white;
+}
+
+.cream {
+	background-color: #F6F1E3;
+}
+
+.lightGreen {
+	background-color: #ABC2A0;
+}
+
+.darkGreen {
+	background-color: #6C8261;
+	color: white;
+}
+
+.roboto {
+	font-family: Roboto;
+}
+
+.afacad {
+	font-family: 'Afacad Flux';
+}
+
+.arsenal {
+	font-family: 'Arsenal SC';
+}
+
+.fontName {
+	font-size: 20px;
 }
